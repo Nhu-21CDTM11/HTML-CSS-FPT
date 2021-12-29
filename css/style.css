@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+.container img{
+    margin-left: 25px;
+}
+header {
+    width: 980px;
+    height: 100px;
+    background: #cc6600;
+}
+/*end*/
+nav {
+    height: 35px;
+    background: #333366;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    line-height: 35px;
+    padding: 0px 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav .search {
+    line-height: 35px;
+    float: right;
+    margin-right: 20px;
+}
+nav .search input {
+    padding: 4px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    border: none;
+    width: 240px;
+}
+nav .search button {
+    padding: 4px;
+    border-radius: 0 5px 5px 0;
+    outline: none;
+    border: none;
+    margin-left: -5px;
+    color: #fff;
+    background: #f00;
+}
+.slide {
+    margin-top: 5px;
+}
+.slide img {
+    margin: 0;
+}
+/*end*/
+article h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333366;
+    text-align: center;
+    padding: 15px 0;
+}
+article h3 {
+    font-size: 16px;
+    color: #993300;
+}
+.list .list_item {
+    width: 28%;
+    float: left;
+    border: 2px solid #ccc;
+    margin-right: 13px;
+    padding: 2%;
+}
+.list .list_item h3 {
+    font-size: 16px;
+    color: #993300;
+}
+.list .list_item img {
+    margin: 10px 0;
+}
+.list .list_item .content {
+    font-size: 14px;
+    line-height: 20px;
+    word-spacing: 1px;
+    height: 100px;
+}
+.fix {
+    margin-right: 0!important;
+}
+/**/
+footer {
+    clear: both;
+    height: 50px;
+    background: #333366;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+
+}
